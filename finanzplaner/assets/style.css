@@ -1,0 +1,22 @@
+:root {
+    --primary: #00C896;
+    --bg-dark: #1E1E1E;
+    --text-light: #EAEAEA;
+}
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-light);
+}
+h1, h2, h3, h4 {
+    color: var(--primary);
+}
+.stButton>button {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+}
+.stButton>button:hover {
+    background-color: #00b387;
+}
